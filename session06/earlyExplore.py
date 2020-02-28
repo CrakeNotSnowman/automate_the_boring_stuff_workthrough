@@ -16,11 +16,11 @@ def load_data():
     with open(gene, 'r') as gene_in_file:
         raw_gene = gene_in_file.readlines()[1:]
     gene_des = {}
-    gene_name = []
+    gene_names = []
     for line in raw_gene:
         line = line.strip()
         line = line.split('\t')
-        gene_name.append(line[0])
+        gene_names.append(line[0])
         name = line[0]
         des = line[1]
         gene_des[name] = des
@@ -42,4 +42,4 @@ def load_data():
 
 
     
-    return sample_names, gene_name, gene_des, formatted_data
+    return sample_names, gene_names, gene_des, formatted_data
