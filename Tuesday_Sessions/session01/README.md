@@ -33,3 +33,14 @@ https://nextstrain.org/ncov?s=Wuhan/WH01/2019
  - Protein Model Spike Glycoprotein with C3 Symmetry Imposed
 https://www.ebi.ac.uk/pdbe/entry/emdb/EMD-21374
 
+
+ - Personal Bio Library
+https://github.com/CrakeNotSnowman/BioLibrary
+
+ - nSpect
+http://bioinfo.unl.edu/nspect.php
+
+
+## Information
+ - Barnes Hut
+https://en.wikipedia.org/wiki/Barnes%E2%80%93Hut_simulation
